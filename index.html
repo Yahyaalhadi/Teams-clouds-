@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Teams Clouds — منصة أخبار ومجتمع الرياضات الإلكترونية." />
+  <title>Teams Clouds | مجتمع الرياضات الإلكترونية</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="العودة إلى الصفحة الرئيسية">
+        <img src="assets/logo.png" alt="شعار Teams Clouds" class="brand-logo" />
+        <span class="brand-copy"><strong>Teams</strong><span>Clouds</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a class="active" href="#top">الرئيسية</a>
+        <a href="#news">الأخبار</a>
+        <a href="#tournaments">البطولات</a>
+        <a href="#teams">الفرق</a>
+        <a href="#about">عن الرابطة</a>
+      </nav>
+
+      <button class="join-button" data-action="join">انضم للمجتمع <span>↗</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-label="مقدمة المنصة">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="pulse-dot"></span> نبض الرياضات الإلكترونية</div>
+        <h1>كل المنافسات<br /><em>في سحابة واحدة.</em></h1>
+        <p>منصة Teams Clouds تجمع أخبار الألعاب، البطولات، والفرق في مساحة واحدة لعشاق المنافسة.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#news">استكشف آخر الأخبار <span>←</span></a>
+          <a class="text-button" href="#about">اكتشف Teams Clouds <span>↗</span></a>
+        </div>
+        <div class="hero-stats" aria-label="إحصاءات المنصة">
+          <div><strong>24+</strong><span>خبر أسبوعي</span></div>
+          <div><strong>08</strong><span>بطولات قادمة</span></div>
+          <div><strong>1.2K</strong><span>عضو في المجتمع</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-frame">
+          <img src="assets/hero-clouds.jpg" alt="شعار The Clouds بتصميم فني" />
+          <div class="frame-label"><span>TC</span><span>EST. 2026</span></div>
+        </div>
+        <div class="floating-note note-top"><span>✦</span> مجتمع يصنع الفرق</div>
+        <div class="floating-note note-bottom"><strong>LIVE</strong> أخبار ومنافسات يومية</div>
+      </div>
+    </section>
+
+    <section class="section container" id="news">
+      <div class="section-heading">
+        <div><span class="section-kicker">LATEST SIGNALS / 01</span><h2>آخر الأخبار</h2></div>
+        <div class="section-tools">
+          <div class="filter-tabs" role="tablist" aria-label="تصفية الأخبار">
+            <button class="filter active" data-filter="all">الكل</button>
+            <button class="filter" data-filter="tournament">بطولات</button>
+            <button class="filter" data-filter="games">ألعاب</button>
+          </div>
+          <button class="view-all" id="viewAllNews">عرض الكل <span>←</span></button>
+        </div>
+      </div>
+      <div class="news-grid" id="newsGrid">
+        <article class="news-card featured" data-category="tournament" data-title="موسم جديد يبدأ من الساحة">
+          <div class="card-image"><img src="assets/news-team-tournament.jpeg" alt="لاعبون يتنافسون في بطولة" /><span class="tag red">بطولات</span></div>
+          <div class="card-body"><span class="card-date">23 سبتمبر 2026 · 4 دقائق</span><h3>موسم جديد يبدأ من الساحة: الفرق تستعد لأقوى منافسات العام</h3><p>نظرة على استعدادات الفرق وتفاصيل الجولة الافتتاحية.</p><button class="read-more" data-read="موسم جديد يبدأ من الساحة">اقرأ الخبر <span>←</span></button></div>
+        </article>
+        <article class="news-card" data-category="games" data-title="الألعاب الأكثر حضورًا في مجتمعنا">
+          <div class="card-image"><img src="assets/esports-arena.jpg" alt="ساحة ألعاب إلكترونية" /><span class="tag blue">ألعاب</span></div>
+          <div class="card-body"><span class="card-date">21 سبتمبر 2026 · 3 دقائق</span><h3>الألعاب الأكثر حضورًا في مجتمعنا هذا الشهر</h3><p>ما الألعاب التي تشعل النقاشات وتجمع اللاعبين؟</p><button class="read-more" data-read="الألعاب الأكثر حضورًا في مجتمعنا">اقرأ الخبر <span>←</span></button></div>
+        </article>
+        <article class="news-card" data-category="tournament" data-title="أضواء البطولة تشتعل">
+          <div class="card-image"><img src="assets/gaming-stage.jpg" alt="مسرح منافسات إلكترونية" /><span class="tag dark">تغطية</span></div>
+          <div class="card-body"><span class="card-date">19 سبتمبر 2026 · 5 دقائق</span><h3>أضواء البطولة تشتعل والجمهور يترقب لحظة الحسم</h3><p>تغطية من قلب الحدث وأبرز لحظات المنافسة.</p><button class="read-more" data-read="أضواء البطولة تشتعل">اقرأ الخبر <span>←</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section container" id="tournaments">
+      <div class="tournament-panel">
+        <div class="section-heading compact"><div><span class="section-kicker">UPCOMING / 02</span><h2>على الرادار</h2></div><span class="mini-arrow">↗</span></div>
+        <div class="event-list">
+          <div class="event-row"><div class="event-date"><strong>28</strong><span>سبتمبر</span></div><div><span class="event-type">بطولة مجتمعية</span><h3>Cloud Clash — الجولة الأولى</h3></div><span class="event-arrow">←</span></div>
+          <div class="event-row"><div class="event-date"><strong>04</strong><span>أكتوبر</span></div><div><span class="event-type">دوري الفرق</span><h3>Teams Clouds League</h3></div><span class="event-arrow">←</span></div>
+          <div class="event-row"><div class="event-date"><strong>12</strong><span>أكتوبر</span></div><div><span class="event-type">نهائي الموسم</span><h3>The Sky Finals</h3></div><span class="event-arrow">←</span></div>
+        </div>
+      </div>
+      <div class="community-panel" id="about"><span class="section-kicker">THE ASSOCIATION / 03</span><h2>نلعب معًا.<br /><span>نكبر معًا.</span></h2><p>Teams Clouds هي مساحة تجمع اللاعبين والفرق ومحبي الرياضات الإلكترونية لمشاركة الأخبار، تنظيم المنافسات، وبناء مجتمع أقوى.</p><a class="outline-button" href="#teams">تعرف على الرابطة <span>↗</span></a><div class="cloud-mark">☁</div></div>
+    </section>
+
+    <section class="teams-section container" id="teams">
+      <div class="section-heading"><div><span class="section-kicker">COMMUNITY / 04</span><h2>فرق تحت السحابة</h2></div><button class="view-all" data-action="teams">كل الفرق <span>←</span></button></div>
+      <div class="team-strip"><div class="team-card"><span class="team-symbol red-symbol">TC</span><div><strong>Cloud Nine</strong><span>Valorant · 12 عضو</span></div><b>01</b></div><div class="team-card"><span class="team-symbol blue-symbol">NX</span><div><strong>Next Horizon</strong><span>FC 26 · 08 أعضاء</span></div><b>02</b></div><div class="team-card"><span class="team-symbol dark-symbol">SK</span><div><strong>Sky Knights</strong><span>CS2 · 10 أعضاء</span></div><b>03</b></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-wrap"><a class="brand" href="#top"><img src="assets/logo.png" alt="شعار Teams Clouds" class="brand-logo" /><span class="brand-copy"><strong>Teams</strong><span>Clouds</span></span></a><p>نحوّل الشغف إلى مجتمع.</p><span class="copyright">© 2026 Teams Clouds</span></div></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="إغلاق">×</button><span class="section-kicker">TEAMS CLOUDS NEWS</span><h2 id="modalTitle">عنوان الخبر</h2><p>هذه نسخة أولية من الخبر داخل المنصة. يمكن لاحقًا ربطها ببيانات حقيقية أو لوحة تحكم لإضافة الأخبار وتعديلها.</p><button class="primary-button" id="modalAction">ممتاز <span>✓</span></button></div></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
